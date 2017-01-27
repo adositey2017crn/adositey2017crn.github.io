@@ -1,0 +1,29 @@
+../imatges/   back.gif
+../img/       back.gif
+
+../img/  arbre.gif
+../img/       arbre.gif
+
+../img/paller.gif
+../img/paller.gif
+
+../img/home.gif
+../img/.gif
+
+
+1r canvi
+
+../imatges/
+../img/
+
+
+2n canvi
+
+../iimatges/
+../img/
+
+
+3r canvi
+
+../file:///125/Users/agm2/Sites/m2c5w04/img//
+../img/
