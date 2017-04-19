@@ -1,0 +1,57 @@
+/* Mobil */
+
+@media only screen and (max-width: 479px) and (orientation: portrait)
+
+{
+	body {
+		background-color: cyan;
+}
+
+	p {
+		font-family: verdana;
+}
+
+}
+
+@media only screen and (max-width:  479px) and (orientation: landscape)
+
+{
+	body {
+		background-color: blue;
+}
+
+	p {
+		font-family: Helvetica, Arial;
+}
+
+}
+
+
+/* Escritori */
+
+@media only screen and (min-width: 480px) and (orientation: portrait)
+
+{
+	body {
+		background-color: green;
+}
+
+	p {
+		font-family: courier, monospace;
+}
+
+}
+
+@media only screen and (min-width:  480px) and (orientation: landscape)
+
+{
+	body {
+		background-color: red;
+}
+
+	p {
+		font-family: Times, georgia;
+	}
+
+}
+
