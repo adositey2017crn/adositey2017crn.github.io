@@ -1,0 +1,52 @@
+
+
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	font-family: Serif;
+	font-size: 20px;
+	font-family: Arial, Verdana;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 20px;
+
+}
+
+#wrapper {
+	background-color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+#datos  {
+	font-family: arial, helvetica, verdana;
+	height: 250px;
+	font-size: 20px;
+	background-color: grey
+}
+
+
+#up  {
+	width: 100px;
+	height: 80px;
+	float: right;
+	margin-left: 50px;
+	margin-right: 7px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#face {
+	width: 80px;
+	height: 80px;
+}
+
+
