@@ -20,8 +20,7 @@
 
 
 
-
-	.nav ul {
+.nav ul {
   list-style: none;
   background-color: #444;
   text-align: center;
@@ -29,17 +28,21 @@
   margin: 0px;
   display: inline-block;
   width: 100%;
-  height: 50px;
+  height: auto;
 }
+
+
+
 
 .nav li {
   font-family: arial, sans-serif;
   font-size: 1.1em;
-  line-height: 15px;
+  line-height: 2px;
   height: 40px;
   display: inline-block;
   text-decoration: none;
 }
+
 
 
  
@@ -53,19 +56,14 @@
 }
 
 
- 
-.nav a:hover {
-  background-color: grey;
-  width: 160px;
-  height: 50px;
-}
- 
-.nav a. {
-  background-color: #444;
-  color: white;
-  margin-right: 23px; 
+.nav li:hover {
+  background-color: black;
 }
 
+
+ 
+
+ 
 
 
 #ban {
@@ -103,7 +101,7 @@
 
 /* Mobil */
 
-@media only screen and (max-width: 799px) and (orientation: portrait) {
+@media only screen and (max-width: 479px) and (orientation: portrait) {
 
 	
 
@@ -122,6 +120,11 @@
   }
 
 
+  .nav li:hover {
+    background-color: grey;
+  }
+
+
 
   .nav a {
     width: 99%;
@@ -130,19 +133,8 @@
 
 
   .nav ul{
-    height: 173px;
+    height: 168px;
   }
-
-
-
-
-  #bann  {
-    height: 250px;
-    font-size: 50px;
-    background-position: center;
-    margin-left: 45px;
-  }
-
 
 
 
@@ -163,6 +155,10 @@
 	}
 
 
+  #bann  {
+    font-size: 40px;
+    margin-left: 80px;
+  }
 
 
 
@@ -191,7 +187,7 @@
 
         <li class="Gastro"><a href="Gastro.html"  >Gastronomia</a></li>
 
-        <li class="news"><a href="mapa.html" target="_blank" >Mapa</a></li>
+        <li class="news"><a href="mapa.html"  >Mapa</a></li>
 
       </ul>
     </div>
