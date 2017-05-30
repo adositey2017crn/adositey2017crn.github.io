@@ -1,66 +1,87 @@
-    body {
-        align: center;
-        align-content: center;
-        text-align: center;
-     }
 
-     #ban {
-        background-image: url(../img/bann.jpg)
-      }
+  body {
+    align: center;
+    align-content: center;
+    text-align: center;
+  }
 
-      #bann {
-        background-position: center;
-        height: 270px;
-        color: white;
-        font-size: 110px;
-        margin-left: 30%;
-        line-height: 260px;
 
-      }
 
-     .nav ul {
-        list-style: none;
-        background-color: #444;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline-block;
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+.nav li {
+  font-family: arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 2px;
+  height: 40px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  transition: .3s ;
+  margin: 20px;
+  font-size: 30px;
+}
+
+
+.nav li:hover {
+  background-color: black;
+}
+
+
+ 
+
+ 
+
+
+#ban {
+  background-image: url(../img/bann.jpg)
+}
+
+
+#bann {
+  background-position: center;
+  height: 270px;
+  color: white;
+  font-size: 110px;
+  margin-left: 26%;
+  line-height: 260px;
+  width: 1%;
+}
+
+
+
+  p {
+    font-size: 20px;
+  }
+
+/*------------ Colombia ---------------*/
+
+  #gran {
         width: 100%;
-        height: auto;
-      }
-
-      .nav li {
-        font-family: arial, sans-serif;
-        font-size: 1.1em;
-        line-height: 2px;
-        height: 40px;
-        display: inline-block;
-        text-decoration: none;
-      }       
-       .nav li:hover {
-        background-color: black;
-      }
-
-      .nav a {
-        text-decoration: none;
-        color: #fff;
-        display: inline-block;
-        transition: .3s;
-        margin: 20px;
-        font-size: 30px;
-      }
-
-
-      p {
-        font-size: 20px;
-      }
-
-      #gran {
-      	width: 100%;
       }
 
       h1 {
-      	font-family: arial, helvetica;
+        font-family: arial, helvetica;
         text-align: center;
       }
 
@@ -94,8 +115,18 @@
         transition: 0.5s;
       }
 
+/* ----------- Gastronomia ------------*/
+  img {
+    width: 24%;
+    margin: 0px;
+  }
 
- 
+  #fod4 {
+    width: 100%;
+  }
+
+
+
 @media only screen and (max-width: 767px) {
 
   
@@ -159,8 +190,8 @@
     height: 250px;
     font-size: 30px;
     text-align: center;
-    margin-left: 50px;  
-    width: 100%;
+  margin-left: 50px;  
+  width: 100%;
 }
 
 
@@ -171,8 +202,9 @@
     width: 100%;
   }
 
+/* ----------- base ----------- */
 
-  #bot {
+#bot {
     margin-top: 30px;
   }
 
@@ -198,6 +230,3 @@
    float: left; 
    margin-right: ;
   }
-
-
-			
