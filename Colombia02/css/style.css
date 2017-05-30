@@ -1,102 +1,87 @@
-    body {
-        align: center;
-        text-align: center;
-     }
-
-     #ban {
-        background-image: url(../img/bann.jpg)
-      }
-
-      #bann {
-        background-position: center;
-        height: 270px;
-        color: white;
-        font-size: 110px;
-        margin-left: 30%;
-        line-height: 260px;
-
-      }
-
-     .nav ul {
-        list-style: none;
-        background-color: #444;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-        display: inline-block;
-        width: 100%;
-        height: auto;
-      }
-
-      .nav li {
-        font-family: arial, sans-serif;
-        font-size: 1.1em;
-        line-height: 2px;
-        height: 40px;
-        display: inline-block;
-        text-decoration: none;
-      }       
-       .nav li:hover {
-        background-color: black;
-      }
-
-      .nav a {
-        text-decoration: none;
-        color: #fff;
-        display: inline-block;
-        transition: .3s;
-        margin: 20px;
-        font-size: 30px;
-      }
+  body {
+    align: center;
+    align-content: center;
+  }
 
 
-      p {
-        font-size: 20px;
-      }
 
-      #gran {
-      	width: 100%;
-      }
-
-      h1 {
-      	font-family: arial, helvetica;
-        text-align: center;
-      }
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
 
 
 
 
+.nav li {
+  font-family: arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 2px;
+  height: 40px;
+  display: inline-block;
+  text-decoration: none;
+}
 
 
-      #bot {
-        margin-top: 10px;
-      }
 
-      #hov:hover {
-        opacity: 0.3;
-      }
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  transition: .3s ;
+  margin: 20px;
+  font-size: 30px;
+}
 
-      #datos {
-        background-color: grey;
-        font-size: 30px;
-        align-content: center;
-        text-align: center;
-        font-family: arial, helvetica;
-      }
 
-      #up  {
-        float: right;
-        margin-top: 10px;
-      }
+.nav li:hover {
+  background-color: black;
+}
 
-      #gif {
-        margin-left: 45%;
-      }
 
-      #redes:hover  {
-        opacity: 0.3;
-        transition: 0.5s;
-      }
+ 
+
+ 
+
+
+#ban {
+  background-image: url(../img/bann.jpg)
+}
+
+
+#bann {
+  background-position: center;
+  height: 270px;
+  color: white;
+  font-size: 110px;
+  margin-left: 26%;
+  line-height: 260px;
+  width: 1%;
+}
+
+
+
+  p {
+    font-size: 20px;
+  }
+
+
+  img {
+    width: 24%;
+    margin: 0px;
+  }
+
+
+  #fod4 {
+    width: 100%;
+  }
 
 
  
