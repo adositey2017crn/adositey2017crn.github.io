@@ -1,4 +1,9 @@
-      #ban {
+    body {
+        align: center;
+        text-align: center;
+     }
+
+     #ban {
         background-image: url(../img/bann.jpg)
       }
 
@@ -95,7 +100,7 @@
 
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
  
   #bann  {
     font-size: 30px;
@@ -134,11 +139,6 @@
     font-size: 15px;
   }
 
-
-
-
-
-
   #bot {
     margin-top: 30px;
   }
@@ -167,14 +167,4 @@
   }
 
 
-
-
-
-  body {
-    align: center;
-    text-align: center;
-  }
-
-
-}	
 			
