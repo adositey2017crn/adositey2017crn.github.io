@@ -148,8 +148,8 @@
     height: 250px;
     font-size: 30px;
     text-align: center;
-    margin-left: 50px;  
-    width: 100%;
+  margin-left: 50px;  
+  width: 100%;
 }
 
 
@@ -159,34 +159,3 @@
     text-align: center;
     width: 100%;
   }
-
-
-  #bot {
-    margin-top: 30px;
-  }
-
-
-  #redes {
-    width: 70px;
-    height: 65px;
-  }
-
-  #datos {
-    font-size: 20px;
-    height: 120px;
-    width: 100%;
-  }
-
-
-
-  #gif  {
-    float: right;
-  }
-
-  #up {
-   float: left; 
-   margin-right: ;
-  }
-
-
-			
